@@ -1,5 +1,3 @@
-var projectedUsage = 'call, sms, call, call, call, call, sms, sms';
-var projectedUsage1 = 'call, sms, call, sms, sms, sms, sms, sms';
 function totalPhoneBill(callAndSmslist){
 	const costPerCall = 2.75;
 	const costPerSms = 0.65;

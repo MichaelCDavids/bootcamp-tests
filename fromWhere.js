@@ -1,5 +1,3 @@
-var vrn = 'CA 123 456';
-var vrn1 = 'CY 123 456'
 function fromWhere(vrn){
  		if(vrn.startsWith('CY')){
 			return "Bellville";}

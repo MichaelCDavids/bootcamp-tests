@@ -1,5 +1,3 @@
-var shift1 = 'morning';
-var shift2 = "afternoon"
 function transportFee(shift){
 	if(shift==='morning'){
     	return 'R20';
