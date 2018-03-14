@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var itemList = [
   {name : 'apples', qty : 9},
   {name : 'pears', qty : 37},
@@ -33,3 +34,17 @@ function findItemsOver20(listOfObjects){
 findItemsOver20(itemList);
 
 findItemsOver20(itemList1);
+=======
+function findItemsOver20(listOfObjects){
+  	var newQuantityObjectList = [];
+  	for(var i=0;i<listOfObjects.length; i++){
+    	var listItem = listOfObjects[i];
+      	var itemQty = listItem.qty;
+      	if(itemQty>20){
+        	newQuantityObjectList.push(listOfObjects[i]);
+        }
+	}
+
+  	return newQuantityObjectList.length;
+}
+>>>>>>> deaf173c71588be8a793d784745a905fb9ebb5a6
