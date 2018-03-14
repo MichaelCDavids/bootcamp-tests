@@ -13,6 +13,7 @@ var itemList2 = [
   {name : 'oranges', qty : 21},
   {name : 'kiwi', qty : 32}
 ];
+
 function findItemsOver20(listOfObjects){
   	var newQuantityObjectList = [];
   	for(var i=0;i<listOfObjects.length; i++){
