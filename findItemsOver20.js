@@ -7,6 +7,5 @@ function findItemsOver20(listOfObjects){
         	newQuantityObjectList.push(listOfObjects[i]);
         }
 	}
-
   	return newQuantityObjectList.length;
 }

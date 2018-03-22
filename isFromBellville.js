@@ -1,4 +1,6 @@
+// Author : M.Davids
+// Date Refactored : 21 March 2018 
+
 function isFromBellville(vrn){
-	var VRN = vrn.startsWith('CY');
-  		return VRN;
+	return vrn.startsWith('CY');
 }

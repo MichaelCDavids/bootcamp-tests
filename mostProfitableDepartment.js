@@ -1,20 +1,12 @@
-var departmentSalesMap = {}
 function mostProfitableDepartment(salesData){
-  	console.log('');
-
-  	console.log(' finding dept with most sales...');
-
-
+  	var departmentSalesMap = {};
   	for (var i = 0; i < salesData.length; i++) {
     	var currentDepartment = salesData[i].department;
-
     	if (departmentSalesMap[currentDepartment] === undefined){
         	departmentSalesMap[currentDepartment] = 0;
     	}
     	departmentSalesMap[currentDepartment] = departmentSalesMap[currentDepartment] + salesData[i].sales;
 	}
-
-
   	var mostSales = 0;
   	var departmentMostSales = '';
   	for(var i in departmentSalesMap){
@@ -24,8 +16,5 @@ function mostProfitableDepartment(salesData){
           	departmentMostSales = i;
         }
 	}
-  	console.log(departmentMostSales);
-  	//console.log(departmentSalesMap);
-
-  	return departmentMostSales;
+	return departmentMostSales;
 }

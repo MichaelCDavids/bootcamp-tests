@@ -12,12 +12,9 @@ function totalPhoneBill(callAndSmslist){
         	amountOfSms.push(listOfActions[i]);
         }
     }
-  	console.log(amountOfCalls);
-  	console.log(amountOfSms);
   	var callBill = costPerCall*amountOfCalls.length;
   	var smsBill = costPerSms*amountOfSms.length;
 	var phoneBill = callBill+smsBill;
   	var totalphoneBill = phoneBill.toFixed(2);
-  	//var phoneBillString = "R"+phoneBill;
   	return "R"+totalphoneBill;
 }

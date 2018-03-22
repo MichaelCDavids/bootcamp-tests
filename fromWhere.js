@@ -8,6 +8,4 @@ function fromWhere(vrn){
 		}
         else{
 			return "Some other place!";}
-
-
 }
